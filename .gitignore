@@ -1,0 +1,26 @@
+# Experiment outputs and local data
+outputs/
+data/
+.smoke/
+*.jsonl
+*.pkl
+*.pt
+*.pth
+*.npy
+*.npz
+*.log
+*.pid
+
+# Local model caches and environments
+.cache/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store

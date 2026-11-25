@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "lambda_cost": 0.001,
+  "verifier_threshold": 0.5,
+  "llm": {"mode": "fake"},
+  "base_llm": {"mode": "fake"},
+  "reflector_llm": {"mode": "fake"},
+  "verifier": {"mode": "rule_based"},
+  "data": {
+    "train_split": "train",
+    "eval_split": "test",
+    "train_limit": 2,
+    "eval_limit": 2,
+    "data_path": null,
+    "eval_data_path": null
+  },
+  "actions": ["direct", "reflect_1", "reflect_2"]
+}

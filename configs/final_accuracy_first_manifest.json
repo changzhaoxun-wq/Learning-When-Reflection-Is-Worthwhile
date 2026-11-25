@@ -1,0 +1,14 @@
+{
+  "experiment_name": "gsm8k_accuracy_first_frozen_policy",
+  "objective": "accuracy_first",
+  "lambda_cost_for_policy_selection": 0.0,
+  "prompt_version": "gsm8k_policy_compat_v1",
+  "train_policy_dataset": "outputs/policy_dataset_gsm8k_full_policy_compat_no_verify.jsonl",
+  "test_trace": "outputs/traces/gsm8k_test_policy_trace_detailed.jsonl",
+  "policy_root": "outputs/multiseed/gsm8k_hierarchical_accuracy",
+  "seeds": [7, 21, 42],
+  "test_set_tuning_allowed": false,
+  "oracle_used_for_training": false,
+  "oracle_used_for_policy_input": false,
+  "notes": "Use this manifest for the paper main result. Do not change threshold, lambda, prompt, or model after inspecting test results."
+}
